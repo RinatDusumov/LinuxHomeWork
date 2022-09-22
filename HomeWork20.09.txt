@@ -1,0 +1,9 @@
+   0 mkdir -p /home/user/start /opt/task && touch /home/user/start/1.txt
+   1 echo "Start" > /home/user/start/1.txt && date >> /home/user/start/1.txt
+   2 cp /home/user/start/1.txt /opt/task/start.txt
+   3 df -h | tail -4 >> /opt/task/start.txt && date > /home/user/new.txt
+   4 df -h | awk '{print $5}' | grep -w 47 >> /home/user/new.txt
+   5 history | tail -5 >> /home/user/new.txt
+   6 cat /proc/cpuinfo | grep vendor >> /home/user/new.txt
+   7 vi /home/user/new.txt
+   8 history > /tmp/history.txt
