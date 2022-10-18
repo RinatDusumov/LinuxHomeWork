@@ -1,0 +1,4 @@
+   0 nano sleeper.sh
+   1 cat /etc/os-release | head -1 >> sleeper.sh
+   2 nano sleeper.sh
+   3 history > /tmp/history.txt
