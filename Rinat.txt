@@ -1,0 +1,8 @@
+#!/bin/bash
+for run in {1..10}
+ do
+ echo "$run.txt: $run"
+ date +"%H:%M:%S"
+ done
+
+15 * * * * /opt/41_42_evening/Rinat_Dusumov/Rinat.sh >> /opt/41_42_evening/Rinat_Dusumov/output.txt
